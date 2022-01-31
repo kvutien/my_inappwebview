@@ -1,6 +1,6 @@
 # my_inappwebview
 
-The basic Flutter project template of Android Studio with flutter_inappwebview
+The basic Flutter project template of Android Studio with the plugin `flutter_inappwebview'
 
 ## How to reproduce the bug
 Pre-requisites: your `flutter doctor` shows something like this
