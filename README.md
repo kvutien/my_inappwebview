@@ -1,6 +1,6 @@
 # my_inappwebview
 
-The basic Flutter project template of Android Studio doesn't recognize CocoaPods when added with the plugin `flutter_inappwebview`
+The basic Flutter project template of Android Studio doesn't recognize CocoaPods when the plugin `flutter_inappwebview` is added in `pubspec.yaml`. 
 
 But the same basic Flutter project works, when I replace its `main.dart` with [the code given as example in the `pub.dev` page](https://inappwebview.dev/docs/in-app-webview/basic-usage/).
 You can verify using the code in following repo: [https://github.com/kvutien/test_in_app_webview](https://github.com/kvutien/test_in_app_webview)
