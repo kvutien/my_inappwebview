@@ -36,13 +36,20 @@ CocoaPods not installed or not in valid state.
 Error launching application on iPad mini (6th generation).
 ```
 
+If you can't reproduce the error, maybe it is specific to Android Studio version ARM64? I have a Macbook Pro with the M1Pro chip.
 
-## How to remove the error
-- ,In `pubspec.yaml` comment out the following dependency by prefixing it with '# '
+## How to remove the error - method 1
+- In Terminal `cd` to the project folder
+- Type `flutter run` 
+
+The build should work. Maybe the bug is specific to Android Studio?
+
+## How to remove the error - method 2
+- In `pubspec.yaml` comment out the following dependency by prefixing it with '# '
 ```
   flutter_inappwebview: ^5.3.2
 ```
-- Run again 'pub get' to update the dependencies
-- Run the project
+- Run again `pub get` to update the dependencies
+- Run the project in Android Studio
 
 This time the build should work and you'll see the classical Flutter template app.
